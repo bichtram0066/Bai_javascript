@@ -1,0 +1,69 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	position: fixed;
+	top: -70px;
+	width: 100%;
+    height: 63px;
+	background-color: green;
+	transition: 0.5s;
+}
+.menu > ul{
+
+	list-style: none;
+}
+ul > li{
+	padding: 20px;
+	float: left;
+
+}
+.menu > ul > li > a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.noidung{
+    padding-top: 20px;
+}
+p{
+	font-size: 22px;
+}
+h2{
+	font-size: 26px;
+	margin: 10px;
+}
+.nhan{
+    position: relative;
+    top: -12px;
+    left: -15px;
+    padding: 10px;
+}
+.nhan {
+	font-size: 20px;
+}
+.hien{
+    position: relative;
+    width: 270px;
+    height: 45px;
+    top: 50px;
+    left: -14px;
+    opacity: 0;
+    transition: .5s;
+}
+.hien > button{
+    padding: 10px 20px;
+    margin-left : 10px;
+}
+.hien > input{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.hieuung{
+    top: 0px;
+    opacity: 1;
+    transition: .5s;
+}

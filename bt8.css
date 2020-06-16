@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.dau{
+	top:0;
+	background-color: black;
+	color: white;
+	height: 50px;
+	padding: 50px 20px;
+	position: fixed;
+	width: 1266px;
+}
+
+.noidung a{
+	font-size: 25px ;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.noidung{
+	padding-top: 150px;
+}
+.noidung p{
+	font-size: 30spx;
+	text-align: justify;
+	padding-top: 20px;
+}
+#name{
+	font-size: 30px;
+}
